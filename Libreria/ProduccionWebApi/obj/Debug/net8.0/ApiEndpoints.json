@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "ProduccionAPI.Controllers.OrdenProduccionController",
+    "Method": "Post",
+    "RelativePath": "api/OrdenProduccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "ProduccionBack.Entities.OrdenProduccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProduccionAPI.Controllers.OrdenProduccionController",
+    "Method": "Get",
+    "RelativePath": "api/OrdenProduccion/componentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProduccionAPI.Controllers.OrdenProduccionController",
+    "Method": "GetOrdenes",
+    "RelativePath": "api/OrdenProduccion/ordenes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
